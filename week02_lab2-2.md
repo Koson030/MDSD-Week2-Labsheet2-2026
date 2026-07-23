@@ -401,7 +401,7 @@ flutter run
 
 **บันทึกรูปผลการทดลอง**
 
-![alt text](image.png)
+![alt text](image/image.png)
 ---
 
 ### การทดลองที่ 2 — Layout Widgets: Column, Row, Container
@@ -460,16 +460,16 @@ flutter run
 
 **บันทึกรูปผลการทดลอง**
 
-![alt text](image-1.png) .start
-![alt text](image-2.png) .end
-![alt text](image-3.png) .spaceBetween
-![alt text](image-4.png) .spaceEvenly
+![alt text](image/image-1.png) .start
+![alt text](image/image-2.png) .end
+![alt text](image/image-3.png) .spaceBetween
+![alt text](image/image-4.png) .spaceEvenly
 
 **✏️ ทดลองแก้ไข D:** ใน Row เพิ่ม Container D สีม่วง ขนาด 80×80 ต่อจาก C
 
 **บันทึกรูปผลการทดลอง**
 
-![alt text](image-5.png)
+![alt text](image/image-5.png)
 ---
 
 ### การทดลองที่ 3 — StatelessWidget แรก
@@ -584,13 +584,13 @@ class InfoCard extends StatelessWidget {
 
 **บันทึกรูปผลการทดลอง**
 
-![alt text](image-6.png)
+![alt text](image/image-6.png)
 
 **✏️ ทดลองแก้ไข E:** เพิ่ม `InfoCard` ที่ 4 แสดง "คณะ" ด้วยไอคอน `Icons.account_balance` สีแดง
 
 **บันทึกรูปผลการทดลอง**
 
-![alt text](image-7.png)
+![alt text](image/image-7.png)
 ---
 
 ### การทดลองที่ 4 — StatefulWidget: Counter
@@ -732,7 +732,7 @@ class _CounterSectionState extends State<CounterSection> {
 
 **บันทึกรูปผลการทดลอง**
 
-![alt text](image-8.png)
+![alt text](image/image-8.png)
 
 
 **✏️ ทดลองแก้ไข F:** ทดลองลบ `setState()` ออก เหลือแค่ `_count += _step` แล้วกดปุ่ม สังเกตว่าตัวเลขไม่เปลี่ยนบนหน้าจอแม้ตัวแปรเปลี่ยน แล้วใส่ `setState()` กลับคืน
@@ -741,7 +741,7 @@ class _CounterSectionState extends State<CounterSection> {
 
 **บันทึกรูปผลการทดลอง**
 
-![alt text](image-9.png)
+![alt text](image/image-9.png)
 
 ---
 
@@ -871,7 +871,7 @@ class _GreetingFormState extends State<GreetingForm> {
 
 **บันทึกรูปผลการทดลอง**
 
-![alt text](image-10.png)
+![alt text](image/image-10.png)
 
 **✏️ ทดลองแก้ไข G:** ทดลองกดปุ่มโดยไม่กรอกชื่อ สังเกตว่า Error Message ปรากฏ และกดปุ่ม Reset (clear field) แล้วสังเกตว่า Error หายไป
 
