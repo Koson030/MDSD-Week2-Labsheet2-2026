@@ -32,11 +32,65 @@ class HomePage extends StatelessWidget {
         backgroundColor: Colors.indigo,
         foregroundColor: Colors.white,
       ),
-      body: const Center(
-        child: Text(
-          '67030030 โกศล เพ็งพิพัฒน์',
-          style: TextStyle(fontSize: 48),
-        ),
+      body: Column(
+        // mainAxisAlignment จัดวางตามแกนหลัก (แนวตั้งสำหรับ Column)
+        mainAxisAlignment: MainAxisAlignment.center,
+        // crossAxisAlignment จัดวางตามแกนรอง (แนวนอนสำหรับ Column)
+        crossAxisAlignment: CrossAxisAlignment.center,
+        children: [
+          // Container — กล่องที่ปรับแต่งได้
+          Container(
+            width: 200,
+            height: 100,
+            color: Colors.indigo.shade100,
+            child: const Center(
+              child: Text('Container', style: TextStyle(fontSize: 18)),
+            ),
+          ),
+
+          // SizedBox — ช่องว่างระหว่าง Widget
+          const SizedBox(height: 16),
+
+          // Row — จัดเรียงแนวนอน
+          Row(
+            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            children: [
+              Container(
+                width: 80,
+                height: 80,
+                color: Colors.red.shade200,
+                child: const Center(child: Text('A')),
+              ),
+              const SizedBox(width: 8),
+              Container(
+                width: 80,
+                height: 80,
+                color: Colors.green.shade200,
+                child: const Center(child: Text('B')),
+              ),
+              const SizedBox(width: 8),
+              Container(
+                width: 80,
+                height: 80,
+                color: Colors.blue.shade200,
+                child: const Center(child: Text('C')),
+              ),
+              const SizedBox(width: 8),
+              Container(
+                width: 80,
+                height: 80,
+                color: Colors.purple.shade200,
+                child: const Center(child: Text('D')),
+              ),
+            ],
+          ),
+
+          const SizedBox(height: 16),
+          const Text(
+            'Column + Row + Container',
+            style: TextStyle(fontSize: 16),
+          ),
+        ],
       ),
     );
   }
