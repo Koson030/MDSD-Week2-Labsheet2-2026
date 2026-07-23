@@ -988,7 +988,7 @@ import 'dart:async';
 
 **บันทึกรูปผลการทดลอง**
 
-![alt text](image-11.png)
+![alt text](image/image-11.png)
 
 **✏️ ทดลองแก้ไข H:** ลองลบ `_timer?.cancel()` ใน `dispose()` แล้วสังเกต — ใน Debug Console อาจเห็น Warning "setState() called after dispose()" หลังจากออกจากหน้า แล้วใส่กลับคืน
 
@@ -1417,9 +1417,9 @@ class _GreetingFormState extends State<GreetingForm> {
 
 **บันทึกรูปผลการทดลอง**
 
-![alt text](image-12.png)
-![alt text](image-13.png)
-![alt text](image-14.png)
+![alt text](image/image-12.png)
+![alt text](image/image-13.png)
+![alt text](image/image-14.png)
 ---
 
 ### การทดลองที่ 8 — Hot Reload vs Hot Restart
